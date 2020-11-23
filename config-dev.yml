@@ -1,2 +1,5 @@
 server: 
   port: 6542
+
+config:
+  infro :"this is a config infro"

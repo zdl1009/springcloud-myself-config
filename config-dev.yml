@@ -1,4 +1,2 @@
-server
-  port :6542
-
-github---config
+server: 
+  port: 6542

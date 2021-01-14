@@ -2,4 +2,4 @@ server:
   port: 6542
 
 config:
-  infro: this is a config infro,version=4
+  infro: this is a config infro,version=5

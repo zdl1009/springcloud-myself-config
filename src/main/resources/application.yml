@@ -1,0 +1,13 @@
+spring:
+  application:
+    name:  EUREKA-SERVER01
+server:
+  port: 8889
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://http://42.192.229.71/:${server.port}/eureka/
+
+

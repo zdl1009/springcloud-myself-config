@@ -9,5 +9,7 @@ eureka:
     register-with-eureka: true
     serviceUrl:
       defaultZone: http://42.192.229.71/:${server.port}/eureka/
+    healthcheck:
+      enabled: false
 
 
